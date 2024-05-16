@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #D3C2B4;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.nav-items ul{
+    list-style: none;
+}
+
+.nav-items ul li{
+    display: inline-block;
+}
+
+.nav-items ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #585857;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+button{
+    background-color: #5857577d;
+    width: 80px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+button a{
+    text-decoration: none;
+    color: #D3C2B4;
+    font-weight: bold;
+}
+/*--End of navbar--*/
+
+.wallpaper{
+    width: 100%;
+    height: 750px;
+    background-image: url("/img/cafe.jpg");
+    background-size: cover;
+}
+
+.wallpaperlayer{
+    width: 100%;
+    height: 750px;
+    background-color: #413d3b91;;
+}
+
+.wallpaperlayer h1{
+    font-weight: bold;
+    font-size: 90px;
+    color: #F1EDEA;
+    text-align: center;
+    padding-top: 200px;
+}
+/*--End of wallpaper--*/
+
+.note{
+    background-color: #FFFFFF;
+    margin: 40px auto;
+    padding: 30px 40px 50px 40px;
+    width: 75%;
+    border-radius: 5px;
+    align-self: center;
+   
+}
+
+.note h3{
+    color: rgb(70 29 8);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.note p{
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    line-height: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container article{
+    padding: 20px;
+    color: white;
+    opacity:0.9;
+   
+
+}
+
+.container p{
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+h4{
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 700;
+   
+}
+
+h5{
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+
+.green{
+    background-color: #683C2C;
+
+}
+
+.light{
+   
+    background-color: #4C352D;
+}
+
+.city{
+    background-color: #352926;
+}
+
+.vienna{
+    background-color: #141212;
+}
+
+.italian{
+    background-color: black;
+}
+
+.Countries{
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.Countries ul li{
+    list-style: none;
+    border-bottom: 1px solid #e89655db; 
+    margin: 80px 0px;
+    padding-bottom: 40px;
+}
+
+.Countries h2{
+    font-family: 'Raleway';
+    color: #b0714f;
+    font-weight: 500;
+}
+
+.Countries p{
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 100;
+    color: gray;
+    line-height: 30px;
+    padding-top:20px;
+}
+
+.Countries ul li a{
+    text-decoration: none;
+    color: #0c2f0c;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/*--End of note section--*/
